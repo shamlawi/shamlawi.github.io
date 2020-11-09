@@ -1,0 +1,51 @@
+
+#body{
+	
+background-image: url(galaxy.jpg);
+background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+#head{
+ 
+  padding-left:4px;
+  padding-right:4px;
+  background:rgb(196,15,24);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  background-position: center; 
+font-size: 35px;
+width: 400px;
+border:solid 5px black;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+float: center;
+
+}
+
+.paragraph{
+	padding-left:4px;
+  padding-right:4px;
+background-color:rgb(217, 255, 109);
+-moz-border-radius:10px;
+  -webkit-border-radius:10px;
+font-size: 16px;
+color: black;
+font-family:courier;
+text-align:center;
+border:solid 5px black;
+padding: 30px;
+
+}
+<!--background-color:rgb(0, 62, 53);
+color: white;
+font-size: 35;
+width:500px;
+text-align:center;
+border:solid 2px white;
+margin: 10 auto;
+padding: 10px;
+-->
+
