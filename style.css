@@ -40,8 +40,19 @@ padding: 30px;
 
 }
 .name{
-	font-size:300%;
-	background-color:rgb(217, 255, 109);
+	padding-left:4px;
+  padding-right:4px;
+  background:rgb(196,15,24);
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  background-position: center; 
+font-size: 300%;
+width: 600px;
+border:solid 5px black;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+float: center;
 	
 	
 	
