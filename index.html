@@ -4,11 +4,19 @@
 <head>
 	<title>Yazan Shamlawi </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	</head>
 
 <body id="body">
-		
-<h1 class="name" title="my name" > yazan moayed shamlawi</h1>
+	<p style="text-align:right">
+	<button style="width:100px" onclick="window.print()">Print My CV</button>
+</p>
+
+	<p style="text-align:center;">	
+
+<button class="name" type="button" onclick="myFunction()">yazan moayed shamlawi</button>
+</p>
 
 <p style="text-align:center">
 <img  src ="yazan.jpg" alt="my photo" width="350" heigth= "200">
@@ -16,7 +24,7 @@
 
 <hr>
 
-<h1 id="head" >my summary: </h1>
+<h1 class="head" >my summary: </h1>
 <pre class="paragraph" >my name is yazan shamlawi .
 i study in An-njah Universty .
 I specialize in networking and information security.
@@ -31,9 +39,9 @@ if you want to connect with me dont worry i will give you my facebook page and y
 </pre>
 <hr>
 
-<h1 id="head" title="my education list" >my education experience : </h1>
+<h1 class="head" title="my education list" >my education experience : </h1>
 
-<pre class="paragraph">
+<pre class="paragraph edu">
 Just as I spoke in my summary,
  I learned during my studies programming and the selection of the C ++ language,
  and I am still learning and developing myself in it.
@@ -41,7 +49,7 @@ Just as I spoke in my summary,
  
 <hr>
 
-<h1 id="head" title="my work experience" >my work experience : </h1>
+<h1 class="head" title="my work experience" >my work experience : </h1>
 
 <pre class="paragraph">
 As I spoke in my summary,
@@ -52,7 +60,9 @@ As I spoke in my summary,
  </pre>
  <hr>
  
- <h1 id="head" title="my hobbies" >my work hobbies : </h1>
+	
+	
+ <h1 class="head" title="my hobbies" >my work hobbies :</h1>
  
 <pre class="paragraph">
 One of my talents is a talent that motivated me to study the field of networks and information security at the university
@@ -61,6 +71,14 @@ One of my talents is a talent that motivated me to study the field of networks a
  hat,i hope to succeed .
 
 </pre>
+<script>
+function myFunction() {
+  document.getElementById(window.alert("Welcome, please let me know if you have any questions”")).innerHTML = "Hello to my page";
+  
+}
+</script>
+
+
 
 </body>
 </html>
