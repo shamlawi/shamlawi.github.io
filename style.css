@@ -7,11 +7,11 @@ background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-#head{
+.head{
  
   padding-left:4px;
   padding-right:4px;
-  background:rgb(196,15,24);
+  background:rgb(93, 90, 0);
   -moz-border-radius:10px;
   -webkit-border-radius:10px;
   background-position: center; 
@@ -24,6 +24,9 @@ text-align: center;
 float: center;
 
 }
+.edu:hover{
+  color:red;
+}
 
 .paragraph{
 	padding-left:4px;
@@ -31,7 +34,7 @@ float: center;
 background-color:rgb(217, 255, 109);
 -moz-border-radius:10px;
   -webkit-border-radius:10px;
-font-size: 16px;
+font-size: 20px;
 color: black;
 font-family:courier;
 text-align:center;
@@ -39,10 +42,11 @@ border:solid 5px black;
 padding: 30px;
 
 }
+
 .name{
 	padding-left:4px;
   padding-right:4px;
-  background:rgb(196,15,24);
+  background:rgb(93, 90, 0);
   -moz-border-radius:10px;
   -webkit-border-radius:10px;
   background-position: center; 
@@ -57,4 +61,4 @@ float: center;
 	
 	
 }
-
+ 
